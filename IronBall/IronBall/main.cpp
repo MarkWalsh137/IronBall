@@ -5,7 +5,6 @@
 */
 
 #include "Engine.h"
-#include "Menu.h"
 #include <iostream>
 
 int main()
@@ -15,18 +14,6 @@ int main()
 
 	RenderWindow window(VideoMode(600, 600), "IronBall");
 
-	Menu menu(window.getSize().x, window.getSize().y);
-
-	while (window.isOpen())
-	{
-		
-		window.clear();
-
-		menu.draw(window);
-
-		window.display();
-
-	}
 	// Start the engine
 	engine.run();
 
