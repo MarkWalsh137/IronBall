@@ -13,7 +13,7 @@ int main()
 	// Declare an instance of Engine
 	Engine engine;
 
-	RenderWindow window(VideoMode(600, 600), "Iron");
+	RenderWindow window(VideoMode(600, 600), "IronBall");
 
 	Menu menu(window.getSize().x, window.getSize().y);
 
