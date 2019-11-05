@@ -50,7 +50,7 @@ private:
 	bool m_SplitScreen = false; 
 
 	// How much time is left in the current level
-	float m_TimeRemaining = 200;
+	float m_TimeRemaining = 90;
 	Time m_GameTimeTotal;
 
 	// Is it time for a new/first level?
