@@ -12,8 +12,6 @@ int main()
 	// Declare an instance of Engine
 	Engine engine;
 
-	RenderWindow window(VideoMode(600, 600), "IronBall");
-
 	// Start the engine
 	engine.run();
 

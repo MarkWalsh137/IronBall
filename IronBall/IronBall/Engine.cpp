@@ -33,7 +33,7 @@ Engine::Engine()
 	m_Window.setFramerateLimit(0);
 
 
-	m_BackgroundTexture = GameTexture::GetTexture(
+	/*m_BackgroundTexture = GameTexture::GetTexture(
 		"Graphics");
 
 	// Associate the sprite with the texture
@@ -41,7 +41,7 @@ Engine::Engine()
 
 	// Load the texture for the background vertex array
 	m_TextureTiles = GameTexture::GetTexture(
-		"Graphics/tiles_sheet.png");
+		"Graphics/tiles_sheet.png");*/
 
 
 }// End Engine constructor

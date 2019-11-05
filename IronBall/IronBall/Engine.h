@@ -1,5 +1,4 @@
 #pragma once
-#include <SFML/Graphics.hpp>
 #include "GameTexture.h"
 
 using namespace sf;
@@ -11,7 +10,7 @@ private:
 	GameTexture m_T;
 
 	// The Level
-	Levels m_L;
+	//Levels m_L;
 
 	// The Hud
 
@@ -67,12 +66,6 @@ private:
 	// Texture for the background and the level tiles
 	Texture m_TextureTiles;
 
-	// Where is the mouse in relation to world coordinates
-	Vector2f mouseWorldPosition;
-	
-	// Where is the mouse in relation to screen coordinates
-	Vector2i mouseScreenPosition;
-
 	// What is the screen resolution
 	Vector2f m_Resolution;
 
@@ -82,9 +75,8 @@ private:
 	void draw();
 
 	// Load a new level
-	void loadLevels();
+	//void loadLevels();
 
-	// Run will call all the private functions
 	
 
 public:
