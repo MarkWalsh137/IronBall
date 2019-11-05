@@ -3,9 +3,33 @@
 *	@creationDate	XXXX/XX/XX	YYYY/MM/DD
 *	@description	
 */
+
+#include "Engine.h"
+#include "Menu.h"
 #include <iostream>
 
-int main() {
-	std::cout << "Hello, World!";
-	return(0);
+int main()
+{
+	// Declare an instance of Engine
+	Engine engine;
+
+	RenderWindow window(VideoMode(600, 600), "Iron");
+
+	Menu menu(window.getSize().x, window.getSize().y);
+
+	while (window.isOpen())
+	{
+		
+		window.clear();
+
+		menu.draw(window);
+
+		window.display();
+
+	}
+	// Start the engine
+	engine.run();
+
+	// Quit in the usual way when the engine is stopped
+	return 0;
 }
